@@ -35,6 +35,10 @@ function showSlide(n) {
   }
 }
 
-function buttonMenuH() { 
-  document.getElementById("menu").classList.toggle("is-active");
+function openMenu() {
+  document.getElementById("menu").style.top="0"
+}
+
+function closeMenu() {
+  document.getElementById("menu").style.top = "-110px";
 }
